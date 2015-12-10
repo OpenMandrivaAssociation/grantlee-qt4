@@ -6,7 +6,7 @@
 Summary:	Qt string template engine based on the Django template system
 Name:		grantlee-qt4
 Version:	0.5.1
-Release:	1
+Release:	2
 Group:		System/Libraries
 License:	LGPLv2+
 Url:		http://www.gitorious.org/grantlee/pages/Home
@@ -77,6 +77,7 @@ Summary:	Development files for %{name}
 Group:		Development/KDE and Qt
 Requires:	%{libgrantlee_gui} = %{version}-%{release}
 Requires:	%{libgrantlee_core} = %{version}-%{release}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Libraries and header files to develop applications that use %{name}.
