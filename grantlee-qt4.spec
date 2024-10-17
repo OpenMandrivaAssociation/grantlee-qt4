@@ -9,7 +9,7 @@ Version:	0.5.1
 Release:	2
 Group:		System/Libraries
 License:	LGPLv2+
-Url:		http://www.gitorious.org/grantlee/pages/Home
+Url:		https://www.gitorious.org/grantlee/pages/Home
 Source0:	http://downloads.%{name}.org/%{oname}-%{version}.tar.gz
 BuildRequires:	cmake
 BuildRequires:	kde4-macros
